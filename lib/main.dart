@@ -80,9 +80,9 @@ class _PerfilScreenState extends State<PerfilScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          nombre, 
-          style: const TextStyle(color: Colors.black87, fontSize: 22, fontWeight: FontWeight.w400)
+        title: const Text(
+          'App de Emerson', 
+          style: TextStyle(color: Colors.black87, fontSize: 22, fontWeight: FontWeight.w400)
         ),
         // Color lila/azulado claro exacto al de la imagen
         backgroundColor: const Color.fromARGB(255, 4, 170, 236), 
